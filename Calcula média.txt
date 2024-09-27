@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{  
+
+	real p1
+	real p2
+	real p3 
+	real p4 
+	real media
+
+	escreva("digite suas nota")
+	leia(p1)
+	escreva("digite outra nota")
+	leia(p2)
+	escreva("digite outra nota")
+	leia(p3)
+	escreva("digite sua última nota")
+	leia(p4)
+	
+	media = (p1+p2+p3+p4)/4
+	escreva("\nsua média é:,media")
+	}
+}
